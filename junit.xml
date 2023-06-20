@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" errors="0" time="0.868">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2023-06-20T05:33:22" time="0.584" tests="8">
+    <testcase classname=" The type of input in the search box should be text" name=" The type of input in the search box should be text" time="0.022">
+    </testcase>
+    <testcase classname=" should initially have no input string in the search box" name=" should initially have no input string in the search box" time="0.006">
+    </testcase>
+    <testcase classname=" should initially display all the data" name=" should initially display all the data" time="0.006">
+    </testcase>
+    <testcase classname=" should display a message when no results are found for a text" name=" should display a message when no results are found for a text" time="0.041">
+    </testcase>
+    <testcase classname=" searched string should only be in the start of the results found" name=" searched string should only be in the start of the results found" time="0.005">
+    </testcase>
+    <testcase classname=" should display all the data when the input is dollar" name=" should display all the data when the input is dollar" time="0.008">
+    </testcase>
+    <testcase classname=" the search should be case-sensitive" name=" the search should be case-sensitive" time="0.004">
+    </testcase>
+    <testcase classname=" the results for the result should be in the same order as that of original data" name=" the results for the result should be in the same order as that of original data" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>
