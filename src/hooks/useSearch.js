@@ -9,16 +9,9 @@ export function useSearch({ customers }) {
   };
 
   useEffect(() => {
-    // const filteredCustomers = customers.filter((customer) =>
-    //   customer.name.includes(search)
-    // );
-
-    // const filteredCustomers = customers.filter((item) =>
-    //   Object.values(item).some((value) => value.toString().includes(search))
-    // );
     const filteredCustomers = customers.filter((item) =>
       Object.values(item).some((value) =>
-        value.toString().split(" ")[0].includes(search)
+        value.toString().split(" ")[0].startsWith(search)
       )
     );
     setSearchedCustomers(filteredCustomers);
